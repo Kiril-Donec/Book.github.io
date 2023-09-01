@@ -4243,6 +4243,7 @@ self.C3_ExpressionFuncs = [
 		() => "https://drive.google.com/file/d/1ujvXNnHlnqPP2fJJV_FsUKczOO8ARsRs/view?usp=sharing",
 		() => "https://drive.google.com/file/d/1qFzak1pMmgxmIq1gu4OifrmtI6eK9stY/view?usp=sharing",
 		() => "https://drive.google.com/file/d/1WFpV9fxSt_Lo3LoKybLnvG77FCmecAcs/view?usp=sharing",
+		() => 1.5,
 		() => "https://kiril-donec.github.io/BookPC.github.io/"
 ];
 
