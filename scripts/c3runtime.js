@@ -4068,6 +4068,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Fade.Cnds.OnFadeOutEnd,
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.System.Cnds.Else,
+		C3.Plugins.System.Cnds.TriggerOnce,
 		C3.Plugins.Browser.Acts.Close
 	];
 };
