@@ -4064,10 +4064,12 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Touch.Cnds.OnTouchObject,
 		C3.Plugins.Browser.Acts.RequestFullScreen,
 		C3.Plugins.Browser.Acts.GoToURL,
+		C3.Plugins.Touch.Cnds.IsTouchingObject,
+		C3.Plugins.Sprite.Acts.SetAnimFrame,
+		C3.Plugins.System.Cnds.Else,
 		C3.Plugins.PlatformInfo.Cnds.IsOnMobile,
 		C3.Behaviors.Fade.Cnds.OnFadeOutEnd,
 		C3.Plugins.System.Acts.GoToLayout,
-		C3.Plugins.System.Cnds.Else,
 		C3.Plugins.System.Cnds.TriggerOnce
 	];
 };
@@ -4094,6 +4096,8 @@ self.C3_JsPropNameTable = [
 	{Мышь: 0},
 	{ОбУстройстве: 0},
 	{ЗробивКірілДонець: 0},
+	{МузичнеМистецтво: 0},
+	{повідомити_кнопка: 0},
 	{TouchY: 0}
 ];
 }
@@ -4243,6 +4247,12 @@ self.C3_ExpressionFuncs = [
 		() => "https://drive.google.com/file/d/1ujvXNnHlnqPP2fJJV_FsUKczOO8ARsRs/view?usp=sharing",
 		() => "https://drive.google.com/file/d/1qFzak1pMmgxmIq1gu4OifrmtI6eK9stY/view?usp=sharing",
 		() => "https://drive.google.com/file/d/1WFpV9fxSt_Lo3LoKybLnvG77FCmecAcs/view?usp=sharing",
+		() => "https://drive.google.com/file/d/1lS8tq4HIs-sjXBoeIP7XEP2b19tik8b9/view?usp=sharing",
+		() => 1,
+		() => 0,
+		() => 0.001,
+		() => 0.05,
+		() => "https://p5mnu1de6p8.typeform.com/to/OpxkUM4d",
 		() => 1.5,
 		() => "https://kiril-donec.github.io/BookPC.github.io/"
 ];
